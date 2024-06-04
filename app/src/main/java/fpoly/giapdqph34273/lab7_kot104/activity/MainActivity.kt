@@ -12,8 +12,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-//            Bai1()
-            Bai2()
+            Bai1()
+//            Bai2()
         }
     }
 }
