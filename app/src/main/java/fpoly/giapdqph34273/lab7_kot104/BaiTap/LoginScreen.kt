@@ -50,7 +50,7 @@ import fpoly.giapdqph34273.lab7_kot104.R
 import fpoly.giapdqph34273.lab7_kot104.Screen
 
 @Composable
-fun Bai3(navController: NavController) {
+fun LoginSreen(navController: NavController) {
 
     val loginViewModel: LoginViewModel = viewModel()
     LoginCard(navController, loginViewModel)

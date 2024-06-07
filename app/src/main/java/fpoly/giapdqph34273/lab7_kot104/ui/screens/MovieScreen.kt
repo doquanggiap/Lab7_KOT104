@@ -12,19 +12,25 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import fpoly.giapdqph34273.lab7_kot104.MovieList.MovieColumn
 import fpoly.giapdqph34273.lab7_kot104.MovieList.MovieGrid
 import fpoly.giapdqph34273.lab7_kot104.MovieList.MovieRow
 import fpoly.giapdqph34273.lab7_kot104.ListType
+import fpoly.giapdqph34273.lab7_kot104.MovieViewModel
 import fpoly.giapdqph34273.lab7_kot104.model.Movie
 
 @Composable
-fun MovieScreen(movies: List<Movie>) {
+fun MovieScreen() {
+    val movieViewModel:MovieViewModel= viewModel()
+    val moviesState = movieViewModel.movies.observeAsState(initial = emptyList())
+    val movies = moviesState.value
 
     var listType by remember { mutableStateOf(ListType.ROW) }
 
