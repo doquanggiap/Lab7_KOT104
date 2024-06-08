@@ -6,12 +6,15 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
-import fpoly.giapdqph34273.lab7_kot104.ListType
 import fpoly.giapdqph34273.lab7_kot104.model.Movie
 import fpoly.giapdqph34273.lab7_kot104.MovieColumnItem
 
 @Composable
-fun MovieColumn(movies: List<Movie>) {
+fun MovieColumn(
+    movies: List<Movie>,
+    onEditClick: (id: String) -> Unit = {},
+    onDeleteClick: (id: String) -> Unit = {}
+) {
     LazyColumn(
         state = rememberLazyListState(),
         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 16.dp),
@@ -19,8 +22,9 @@ fun MovieColumn(movies: List<Movie>) {
     ) {
         items(movies.size) { index ->
             MovieColumnItem(
-                movie = movies[index], listType =
-                ListType.COLUMN
+                movie = movies[index],
+                onEditClick = onEditClick,
+                onDeleteClick = onDeleteClick
             )
         }
     }

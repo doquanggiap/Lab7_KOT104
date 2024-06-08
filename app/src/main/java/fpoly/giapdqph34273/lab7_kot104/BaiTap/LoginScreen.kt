@@ -45,9 +45,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import fpoly.giapdqph34273.lab7_kot104.LoginViewModel
+import fpoly.giapdqph34273.lab7_kot104.model.LoginViewModel
 import fpoly.giapdqph34273.lab7_kot104.R
-import fpoly.giapdqph34273.lab7_kot104.Screen
+import fpoly.giapdqph34273.lab7_kot104.navigation.Screen
 
 @Composable
 fun LoginSreen(navController: NavController) {

@@ -1,4 +1,4 @@
-package fpoly.giapdqph34273.lab7_kot104
+package fpoly.giapdqph34273.lab7_kot104.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
