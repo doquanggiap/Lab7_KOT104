@@ -1,7 +1,7 @@
 package fpoly.giapdqph34273.lab7_kot104.service
 
-import fpoly.giapdqph34273.lab7_kot104.model.MovieRequest
-import fpoly.giapdqph34273.lab7_kot104.model.StatusResponse
+import fpoly.giapdqph34273.lab7_kot104.request.MovieRequest
+import fpoly.giapdqph34273.lab7_kot104.request.StatusResponse
 import fpoly.giapdqph34273.lab7_kot104.response.MovieResponse
 import retrofit2.Response
 import retrofit2.http.Body

@@ -1,4 +1,4 @@
-package fpoly.giapdqph34273.lab7_kot104
+package fpoly.giapdqph34273.lab7_kot104.ui.screens
 
 import android.app.DatePickerDialog
 import android.util.Log
@@ -30,8 +30,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import fpoly.giapdqph34273.lab7_kot104.model.Movie
-import fpoly.giapdqph34273.lab7_kot104.model.MovieRequest
-import fpoly.giapdqph34273.lab7_kot104.model.MovieViewModel
+import fpoly.giapdqph34273.lab7_kot104.request.MovieRequest
+import fpoly.giapdqph34273.lab7_kot104.viewModel.MovieViewModel
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date

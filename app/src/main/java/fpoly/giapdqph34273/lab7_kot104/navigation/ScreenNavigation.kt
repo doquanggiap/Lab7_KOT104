@@ -7,9 +7,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import fpoly.giapdqph34273.lab7_kot104.BaiTap.LoginSreen
-import fpoly.giapdqph34273.lab7_kot104.MovieFormScreen
-import fpoly.giapdqph34273.lab7_kot104.model.MovieViewModel
+import fpoly.giapdqph34273.lab7_kot104.ui.screens.LoginSreen
+import fpoly.giapdqph34273.lab7_kot104.ui.screens.MovieFormScreen
+import fpoly.giapdqph34273.lab7_kot104.viewModel.MovieViewModel
 import fpoly.giapdqph34273.lab7_kot104.ui.screens.MovieScreen
 
 @Composable

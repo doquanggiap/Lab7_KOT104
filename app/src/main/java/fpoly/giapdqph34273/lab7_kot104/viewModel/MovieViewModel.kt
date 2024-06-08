@@ -1,12 +1,13 @@
-package fpoly.giapdqph34273.lab7_kot104.model
+package fpoly.giapdqph34273.lab7_kot104.viewModel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import fpoly.giapdqph34273.lab7_kot104.model.Movie
+import fpoly.giapdqph34273.lab7_kot104.request.MovieRequest
 import fpoly.giapdqph34273.lab7_kot104.service.RetrofitService
-import fpoly.giapdqph34273.lab7_kot104.toMovie
 import kotlinx.coroutines.launch
 
 class MovieViewModel : ViewModel() {

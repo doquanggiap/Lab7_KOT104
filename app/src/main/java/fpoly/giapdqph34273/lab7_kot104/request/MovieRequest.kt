@@ -1,4 +1,4 @@
-package fpoly.giapdqph34273.lab7_kot104.model
+package fpoly.giapdqph34273.lab7_kot104.request
 
 import com.google.gson.annotations.SerializedName
 

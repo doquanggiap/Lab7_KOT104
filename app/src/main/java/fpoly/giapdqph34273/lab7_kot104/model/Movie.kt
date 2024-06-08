@@ -1,7 +1,7 @@
 package fpoly.giapdqph34273.lab7_kot104.model
 
 import com.google.gson.annotations.SerializedName
-import fpoly.giapdqph34273.lab7_kot104.MovieFormData
+import fpoly.giapdqph34273.lab7_kot104.ui.screens.MovieFormData
 
 data class Movie(
     @SerializedName("filmId") val id: String,

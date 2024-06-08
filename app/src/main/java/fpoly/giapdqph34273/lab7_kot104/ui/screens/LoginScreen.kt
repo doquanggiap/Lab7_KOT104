@@ -1,4 +1,4 @@
-package fpoly.giapdqph34273.lab7_kot104.BaiTap
+package fpoly.giapdqph34273.lab7_kot104.ui.screens
 
 import android.annotation.SuppressLint
 import android.util.Log
@@ -45,7 +45,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import fpoly.giapdqph34273.lab7_kot104.model.LoginViewModel
+import fpoly.giapdqph34273.lab7_kot104.viewModel.LoginViewModel
 import fpoly.giapdqph34273.lab7_kot104.R
 import fpoly.giapdqph34273.lab7_kot104.navigation.Screen
 
